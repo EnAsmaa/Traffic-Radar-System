@@ -23,7 +23,7 @@ public class Main {
 
         Fine fine = radar.check(car);
         System.out.println("Traffic fine for car " + fine.getPlateNumber());
-        System.out.println("Total Amount: " + fine.getTotalAmount() + " EGP");
+        System.out.println("Total Fine: " + fine.getTotalAmount() + " EGP");
         System.out.println("Violations:");
 
         for (Violation violation : fine.getViolations()) {
